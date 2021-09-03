@@ -10,6 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/YouLib" />
+            <option value="$PROJECT_DIR$/YouLib/device" />
+            <option value="$PROJECT_DIR$/YouLib/mc120m" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/beidouprobe" />
           </set>

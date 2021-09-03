@@ -46,18 +46,9 @@ android {
 }
 
 dependencies {
-
     implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
-    implementation(name: 'device-release', ext: 'aar')
-    implementation(name: 'mc120m-release', ext: 'aar')
     api 'com.github.mik3y:usb-serial-for-android:3.4.2'
     implementation 'com.squareup.okhttp3:okhttp:4.9.0'
     implementation 'com.squareup.okio:okio:2.8.0'
-
+    implementation project(path: ':YouLib')
 }
-
-configurations.maybeCreate("device")
-configurations.maybeCreate("mc120m")
-
-artifacts.add("device", file('device-release.aar'))
-artifacts.add("mc120m", file('mc120m-release.aar'))

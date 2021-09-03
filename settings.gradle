@@ -1,3 +1,5 @@
 rootProject.name = "BPSDKTest"
 include ':app'
 include ':beidouprobe'
+include ':YouLib:device'
+include ':YouLib:mc120m'

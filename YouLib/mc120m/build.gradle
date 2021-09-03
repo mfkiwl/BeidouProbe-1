@@ -1,0 +1,2 @@
+configurations.maybeCreate("mc120m")
+artifacts.add('mc120m',file('mc120m-release.aar'))

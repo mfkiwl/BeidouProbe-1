@@ -1,0 +1,2 @@
+configurations.maybeCreate("device")
+artifacts.add('device',file('device-release.aar'))
